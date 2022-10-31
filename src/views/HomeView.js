@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Nav from "../components/nav/Nav";
-import MobileNav from "../components/mobileNav/"
+import MobileNav from "../components/mobileNav/MobileNav";
 
 function HomeView() {
   const [isOpen, setIsOpen] = useState(false);
