@@ -1,14 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
-import HomeView from "./homeView/HomeView.js";
+import Home from './views/HomeView';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" element={<HomeView />} />
-        {/* <Route path="/" element={Hack} exact /> */}
+        <Route path="/" element={<Home />} exact />
+        {/* <Route path="/" element={<Hack />} exact /> */}
       </Routes>
   </Router>
   );
