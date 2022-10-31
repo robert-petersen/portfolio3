@@ -4,10 +4,16 @@ import Nav from "../components/nav/Nav";
 import MobileNav from "../components/mobileNav/"
 
 function HomeView() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  }
+
   return (
     <section>
-      <Nav />
-      <MobileNav />
+      <Nav isOpen={isOpen} toggle={toggle} />
+      <MobileNav isOpen={isOpen} toggle={toggle} />
     </section>
   );
 }
