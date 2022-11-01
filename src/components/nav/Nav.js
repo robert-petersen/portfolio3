@@ -25,7 +25,7 @@ function Nav({toggle, isOpen}) {
   }
 
   return (
-    <nav>
+    <nav className="nav-desktop">
       <h1 onClick={toggleHome} >Robert Petersen</h1>
       <div className="nav-mobile-icon-container" onClick={ toggle } >
         <FaBars className="bars icon"/>
