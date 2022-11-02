@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link as LinkS } from "react-scroll";
 
-const MobileNav = ({ isOpen, toggle }) => {
+const MobileNav = ({ toggle }) => {  //  isOpen
   return (
     <nav className='nav-mobile'>
       <LinkS 
