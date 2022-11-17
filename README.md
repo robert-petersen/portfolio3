@@ -3,7 +3,7 @@
 - [Dependencies](#depend)
 
 <a name="depend" />
-## Dependencies /n
+## Dependencies \n
 - react
 - react-icons
 - react-scroll
