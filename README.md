@@ -1,6 +1,8 @@
 # Robert Petersen's Portfolio Website v3
 ## Contents
-- Dependencies
+- [Dependencies](#depend)
+
+<a name="depend" />
 ## Dependencies
 - react
 - react-icons
