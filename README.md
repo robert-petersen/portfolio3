@@ -2,7 +2,7 @@
 ## Contents
 - Dependencies
 
-## Dependencies \n
+## Dependencies
 - react
 - react-icons
 - react-scroll
