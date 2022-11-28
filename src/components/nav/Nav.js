@@ -20,27 +20,27 @@ function Nav({toggle, isOpen}) {
 
   const toggleHome = () => {
     scroll.scrollToTop();
-    console.log(`isOpen: ${isOpen} / needs to be implemented still`);
-    console.log(`scrollNav: ${scrollNav} / needs to be implemented still`);
   }
 
   return (
-    <nav className="nav-desktop">
+    <nav className={scrollNav ? "nav" : "nav hide"}>
       <h1 onClick={toggleHome} >Robert Petersen</h1>
-      <div className="nav-mobile-icon-container" onClick={ toggle } >
-        <FaBars className="bars icon"/>
-        <FaTimes className="times icon"/>
+      <div className="nav_mobile_icon_container" onClick={ toggle } >
+        <FaBars className={isOpen ? "icon hide_icon" : "icon"}/>
+        <FaTimes className={isOpen ? "icon" : "icon hide_icon"}/>
       </div>
-      <div className="nav-links-conatiner">
+      <div className="nav_links_conatiner">
         <LinkS 
+          className="link"
           to="about"
-          smooth={true}
+          smooth={"true"}
           duration={500}
           spy={true}
           exact="true"
           offset={-60}
         >About</LinkS>
         <LinkS 
+          className="link"
           to="skills"
           smooth={true}
           duration={500}
@@ -49,6 +49,7 @@ function Nav({toggle, isOpen}) {
           offset={-60}
         >Skills</LinkS>
         <LinkS 
+          className="link"
           to="projects"
           smooth={true}
           duration={500}
