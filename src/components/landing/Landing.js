@@ -11,11 +11,11 @@ const Landing = () => {
   }
 
   return (
-    <section className='landing-container'>
-      <div className='landing-video-container'>
+    <section className='landing_container'>
+      <div className='landing_video_container'>
         <video autoPlay loop muted src={Video} type="video/mp4" />
       </div>
-      <div className='landing-text-container'>
+      <div className='landing_text_container'>
         <h1>Hey, I'm Rob</h1>
         <h2>A Full-Stack Web Developer from Chicago, IL</h2>
         <LinkS 
@@ -30,7 +30,7 @@ const Landing = () => {
           offset={-60}
         >Continue {hover ? <ArrowDownward className='arrow'/> : <ArrowForward className='arrow'/>} </LinkS>
       </div>
-      <div className='landing-fadeout'></div>
+      <div className='landing_fadeout'></div>
     </section>
   )
 }

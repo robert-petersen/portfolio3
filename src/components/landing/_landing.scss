@@ -1,10 +1,10 @@
-.landing-container {
+.landing_container {
   height: calc(100vh + 20vh);
   width: 100%;
   position: relative;
   z-index: 1;
 
-  .landing-video-container {
+  .landing_video_container {
     position: absolute;
     top: 0;
     right: 0;
@@ -22,7 +22,7 @@
     }
   }
 
-  .landing-text-container {
+  .landing_text_container {
     position: absolute;
     z-index: 2;
     height: 100vh;
@@ -75,7 +75,7 @@
     }
   }
 
-  .landing-fadeout {
+  .landing_fadeout {
     position: absolute;
     z-index: 2;
     bottom: 0;
