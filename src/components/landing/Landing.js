@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {Link as LinkS} from "react-scroll";
 import Video from "../../videos/pexels-crazy-motions-8733062.mp4";
 import {MdArrowDownward as ArrowDownward, MdArrowForward as ArrowForward} from "react-icons/md";
 
@@ -17,7 +18,8 @@ const Landing = () => {
       <div className='landing-text-container'>
         <h1>Hey, I'm Rob</h1>
         <h2>A Full-Stack Web Developer from Chicago, IL</h2>
-        <button 
+        <LinkS 
+          className='landing_button'
           to="about" 
           onMouseEnter={onHover} 
           onMouseLeave={onHover}
@@ -26,7 +28,7 @@ const Landing = () => {
           spy={"true"}
           exact="true"
           offset={-60}
-        >Continue {hover ? <ArrowDownward /> : <ArrowForward />} </button>
+        >Continue {hover ? <ArrowDownward className='arrow'/> : <ArrowForward className='arrow'/>} </LinkS>
       </div>
       <div className='landing-fadeout'></div>
     </section>

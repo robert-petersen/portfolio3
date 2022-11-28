@@ -81,22 +81,27 @@ body::-webkit-scrollbar-thumb {
 
 // *** Variables ***
 // Backgrounds
-$background-darker: #262626;
-$background-dark: #404040;
-$background-light: #e8e8e8;
-$background-lighter: whitesmoke;
+$background_darker: #262626;
+$background_dark: #404040;
+$background_light: #e8e8e8;
+$background_lighter: whitesmoke;
 
 // Text Colors
-$title-dark: #262626;
-$body-dark: #333333;
-$body-lightdark: #404040;
-$title-light: white;
-$body-light: lightgrey;
-$link-dark: #262626;
-$link-light: white;
-$link-hover-dark: dodgerblue;
-$link-hover-light: dodgerblue;
+$title_dark: #262626;
+$body_dark: #333333;
+$body_lightdark: #404040;
+$title_light: white;
+$body_light: lightgrey;
+$link_dark: #262626;
+$link_light: white;
+$link_hover-dark: dodgerblue;
+$link_hover-light: dodgerblue;
+$shadow: lightslategray;
 
+// media breakpoints
+$phone: 480px;
+$tablet: 768px;
+$desktop: 1800px; // placholder / build default styles based on large desktop
 
 // *** Component Sheet Imports ***
 @import "./components/landing/landing";
