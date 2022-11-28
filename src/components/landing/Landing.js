@@ -25,7 +25,7 @@ const Landing = () => {
           onMouseLeave={onHover}
           smooth={"true"}
           duration={500}
-          spy={"true"}
+          spy={true}
           exact="true"
           offset={-60}
         >Continue {hover ? <ArrowDownward className='arrow'/> : <ArrowForward className='arrow'/>} </LinkS>
