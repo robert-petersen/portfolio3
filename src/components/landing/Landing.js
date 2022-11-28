@@ -10,7 +10,7 @@ const Landing = () => {
   }
 
   return (
-    <section className='landing'>
+    <section className='landing-container'>
       <div className='landing-video-container'>
         <video autoPlay loop muted src={Video} type="video/mp4" />
       </div>
@@ -21,9 +21,9 @@ const Landing = () => {
           to="about" 
           onMouseEnter={onHover} 
           onMouseLeave={onHover}
-          smooth={true}
+          smooth={"true"}
           duration={500}
-          spy={true}
+          spy={"true"}
           exact="true"
           offset={-60}
         >Continue {hover ? <ArrowDownward /> : <ArrowForward />} </button>
