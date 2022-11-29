@@ -296,4 +296,56 @@ body::-webkit-scrollbar-thumb {
 .hide_icon {
   display: none;
 }
+
+.nav_mobile {
+  position: fixed;
+  z-index: 998;
+  width: 100%;
+  height: 40%;
+  background-color: dodgerblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav_mobile .nav_links_container {
+  height: 80%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.4rem;
+  padding-top: 10%;
+  color: #262626;
+}
+
+.nav_mobile .nav_links_container .link {
+  cursor: pointer;
+}
+
+.nav_mobile .nav_links_container .link:hover {
+  color: whitesmoke;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
 /*# sourceMappingURL=index.css.map */
