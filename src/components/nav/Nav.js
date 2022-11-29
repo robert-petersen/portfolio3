@@ -26,8 +26,14 @@ function Nav({toggle, isOpen}) {
     <nav className={scrollNav ? "nav" : "nav hide"}>
       <h1 onClick={toggleHome} >Robert Petersen</h1>
       <div className="nav_mobile_icon_container" onClick={ toggle } >
-        <FaBars className={isOpen ? "icon hide_icon" : "icon"}/>
-        <FaTimes className={isOpen ? "icon" : "icon hide_icon"}/>
+        <FaBars 
+          className={isOpen ? "icon hide_icon" : "icon"}
+          onClick={toggle}
+        />
+        <FaTimes 
+          className={isOpen ? "icon" : "icon hide_icon"}
+          onClick={toggle}
+        />
       </div>
       <div className="nav_links_conatiner">
         <LinkS 
