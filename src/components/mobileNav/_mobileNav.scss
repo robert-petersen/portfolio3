@@ -2,12 +2,14 @@
   position: fixed;
   z-index: 998;
   width:100%;
-  height: 40%;
+  height: 30%;
   background-color: dodgerblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  top: 0;
+  transition: ease-in-out .4s;
 
   .nav_links_container {
     height: 80%;
@@ -29,4 +31,9 @@
       }
     }
   }
+}
+
+.hide_mobile_nav {
+  opacity: 0%;
+  top: -100%;
 }
