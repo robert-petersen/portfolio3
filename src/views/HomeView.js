@@ -10,7 +10,6 @@ function HomeView() {
 
   const toggle = () => {
     setIsOpen(!isOpen);
-    console.log(`toggled value is ${isOpen}`)
   }
 
   return (

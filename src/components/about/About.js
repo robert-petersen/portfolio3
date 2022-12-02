@@ -45,7 +45,7 @@ function About() {
       <div className="about_skills_container">
         {
           aboutDataSet.map((info, index)=>{
-            return <AboutSkill key={index} icon={info.icon} title={info.title} description={info.description}/>;
+            return <AboutSkill key={index} info={info}/>;
           })
         }
       </div>
