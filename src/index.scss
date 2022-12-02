@@ -75,7 +75,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
 	background-color: dodgerblue;
-	border: 1px solid dodgerblue;
+	border: 1px solid #dbdbdb;
 	border-radius: 20px;
 }
 
@@ -107,11 +107,13 @@ $link_hover_white: white;
 
 // media breakpoints
 $phone: 480px;
-$tablet: 768px;
-$desktop: 1800px; // placholder / build default styles based on large desktop
+$tablet: 800px;
+$desktop: 1400px;
+$large_desktop: 1950px;
 
 // *** Component Sheet Imports ***
 @import "./components/landing/landing";
 @import "./components/nav/nav";
 @import "./components/mobileNav/mobileNav";
 @import "./components/about/about";
+@import "./components/about/aboutSkill";

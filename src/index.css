@@ -79,7 +79,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: dodgerblue;
-  border: 1px solid dodgerblue;
+  border: 1px solid #dbdbdb;
   border-radius: 20px;
 }
 
@@ -532,7 +532,25 @@ body::-webkit-scrollbar-thumb {
 
 #about .about_skills_container {
   width: 50%;
-  padding-top: 10%;
+  min-height: 60vh;
+  margin-top: 20vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  border: 1px solid red;
+}
+
+.about_skill_card {
+  width: calc(100% - 2vh);
+  height: calc(100% - 2vh);
+  margin: 1vh;
+  background-color: #404040;
+  -webkit-box-shadow: 2px 2px 2px lightslategray;
+          box-shadow: 2px 2px 2px lightslategray;
+  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -540,23 +558,32 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #262626;
 }
 
-@media screen and (max-width: 1500px) {
-  #about .about_skills_container {
-    width: 80%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-bottom: 20vh;
-  }
+.about_skill_card h1 {
+  width: 70%;
+  text-align: center;
+  margin-top: 2vh;
+  padding-bottom: 1vh;
+  border-bottom: 2vh;
+  border-bottom: 1px solid dodgerblue;
+  color: white;
+}
+
+.about_skill_card p {
+  margin-top: 1vh;
+  line-height: 1.3;
+  color: lightgrey;
+}
+
+.about_icon {
+  color: dodgerblue;
+  font-size: 3rem;
 }
 /*# sourceMappingURL=index.css.map */
