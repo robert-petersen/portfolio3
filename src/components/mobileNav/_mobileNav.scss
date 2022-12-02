@@ -3,7 +3,8 @@
   z-index: 998;
   width:100%;
   height: 30%;
-  background-color: dodgerblue;
+  background-color: $background_blue;
+  box-shadow: 2px 2px 3px $shadow;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,13 +21,13 @@
     align-items: center;
     font-size: 1.4rem;
     padding-top: 10%;
-    color: #262626;
+    color: $link_dark;
 
     .link {
       cursor: pointer;
   
       &:hover {
-        color: whitesmoke;
+        color: $link_hover_white;
         transition: 0.2s ease-in-out;
       }
     }

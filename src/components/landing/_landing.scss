@@ -58,12 +58,12 @@
       font-size: 1.4rem;
       padding: 10px;
       background-color: transparent;
-      border: 2px solid #262626;
+      border: 2px solid $border_darker;
       transition: 0.3s ease-in-out;
 
       &:hover {
-        background-color: dodgerblue;
-        border: 2px solid dodgerblue;
+        background-color: $background_blue;
+        border: 2px solid $border_blue;
         color: whitesmoke;
         box-shadow: 2px 2px 3px $shadow;
       }

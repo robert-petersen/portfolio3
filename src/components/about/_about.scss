@@ -34,7 +34,7 @@
       .about_photo{
         width: 30%;
         border-radius: 20px;
-        box-shadow: 2px 2px 2px lightslategray;
+        box-shadow: 2px 2px 2px $shadow;
       }
     
       @media screen and (max-width: 1500px) {
@@ -50,7 +50,7 @@
           font-size: 1.6rem;
           padding-bottom: 2vh;
           margin-bottom: 1vh;
-          border-bottom: 2px solid dodgerblue;
+          border-bottom: 2px solid $border_blue;
           padding-left: 1vw;
         }
       
@@ -66,14 +66,14 @@
           h3 {
             font-size: 1.2rem;
             margin-left: 1vw;
-            color: #333333;
+            color: $body_dark;
           }
         }
       
         h4 {
           font-size: 1rem;
           padding-left: calc(30px + 1vw);
-          color:  #404040;
+          color:  $body_lightdark;
         }
       
         @media screen and (max-width: 800px) {
@@ -91,7 +91,7 @@
         margin-top: 2vh;
         margin-bottom: 3vh;
         padding-bottom: 2vh;
-        border-bottom: 2px solid dodgerblue;
+        border-bottom: 2px solid $border_blue;
         padding-left: 1vw;
     
         @media screen and (max-width: 800px) {
@@ -103,14 +103,16 @@
         font-size: 1.2rem;
         line-height: 1.7;
         margin-bottom: 1vh;
-        color:  #404040;
+        color:  $body_lightdark;
     
         a {
           text-decoration: none;
-          color: dodgerblue;
+          color: $link_dark;
+          text-shadow: .1px .1px .1px $shadow;
     
           &:hover {
-            color: white;
+            color: $link_hover_dark;
+            text-shadow: .1px .1px .1px white;
           }
         }
       }
