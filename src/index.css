@@ -303,6 +303,8 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 30%;
   background-color: dodgerblue;
+  -webkit-box-shadow: 2px 2px 3px lightslategray;
+          box-shadow: 2px 2px 3px lightslategray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -347,7 +349,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .nav_mobile .nav_links_container .link:hover {
-  color: whitesmoke;
+  color: white;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
@@ -513,11 +515,13 @@ body::-webkit-scrollbar-thumb {
 
 #about .about_me_conatiner .about_me_botom p a {
   text-decoration: none;
-  color: dodgerblue;
+  color: #262626;
+  text-shadow: 0.1px 0.1px 0.1px lightslategray;
 }
 
 #about .about_me_conatiner .about_me_botom p a:hover {
-  color: white;
+  color: dodgerblue;
+  text-shadow: .1px .1px .1px white;
 }
 
 @media screen and (max-width: 1500px) {

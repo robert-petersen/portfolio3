@@ -85,6 +85,13 @@ $background_darker: #262626;
 $background_dark: #404040;
 $background_light: #e8e8e8;
 $background_lighter: whitesmoke;
+$background_blue: dodgerblue;
+
+// Borders & Shadows
+$border_blue: dodgerblue;
+$border_darker: #262626;
+$border_dark: #404040;
+$shadow: lightslategray;
 
 // Text Colors
 $title_dark: #262626;
@@ -94,9 +101,9 @@ $title_light: white;
 $body_light: lightgrey;
 $link_dark: #262626;
 $link_light: white;
-$link_hover-dark: dodgerblue;
-$link_hover-light: dodgerblue;
-$shadow: lightslategray;
+$link_hover_dark: dodgerblue;
+$link_hover_light: dodgerblue;
+$link_hover_white: white;
 
 // media breakpoints
 $phone: 480px;
