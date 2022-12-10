@@ -6,6 +6,7 @@ import Landing from "../components/landing/Landing.js";
 import About from "../components/about/About";
 import Skills from "../components/skills/Skills";
 import Projects from "../components/projects/Projects";
+import Contact from "../components/contact/Contact";
 
 function HomeView() {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,6 +23,7 @@ function HomeView() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </section>
   );
 }

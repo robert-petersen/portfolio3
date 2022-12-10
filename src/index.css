@@ -817,4 +817,171 @@ body::-webkit-scrollbar-thumb {
   color: dodgerblue;
   text-decoration: underline;
 }
+
+#contact {
+  width: 100%;
+  min-height: calc( 100vh - 60px);
+  background-color: #404040;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .contact_content_container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (max-width: 900px) {
+  #contact .contact_content_container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+#contact .contact_content_container .contact_content {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (max-width: 900px) {
+  #contact .contact_content_container .contact_content {
+    width: 80%;
+  }
+}
+
+#contact .contact_content_container .contact_content h1 {
+  width: 100%;
+  margin-top: 20vh;
+  font-size: 2.4rem;
+  padding-bottom: 1vh;
+  border-bottom: 2px solid dodgerblue;
+  margin-bottom: 5vh;
+  padding-left: 1vw;
+  color: white;
+}
+
+#contact .contact_content_container .contact_content p {
+  font-size: 1.4rem;
+  color: lightgrey;
+  line-height: 1.4;
+}
+
+#contact .contact_content_container .contact_content p span {
+  color: whitesmoke;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#contact .contact_content_container .contact_content p span:hover {
+  color: dodgerblue;
+}
+
+#contact .contact_content_container .contact_content p a {
+  color: whitesmoke;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+}
+
+#contact .contact_content_container .contact_content p a:hover {
+  color: dodgerblue;
+}
+
+#contact .contact_content_container .contact_content .contact_socials_container {
+  width: 100%;
+  margin-top: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .contact_content_container .contact_content .contact_socials_container .social_link {
+  text-decoration: none;
+  margin: 20px;
+}
+
+#contact .contact_content_container .contact_content .contact_socials_container .icon {
+  font-size: 3rem;
+  color: dodgerblue;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#contact .contact_content_container .contact_content .contact_socials_container .icon:hover {
+  color: white;
+}
+
+#contact .contact_copyright {
+  margin-top: 10vh;
+  width: 100%;
+  height: 10vh;
+  background-color: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#contact .contact_copyright h4 {
+  font-size: .8rem;
+  color: dodgerblue;
+  margin-left: .5rem;
+}
+
+#contact .contact_copyright .copyright_icon {
+  font-size: 1rem;
+  color: dodgerblue;
+}
 /*# sourceMappingURL=index.css.map */
