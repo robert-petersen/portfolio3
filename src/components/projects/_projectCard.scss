@@ -1,0 +1,59 @@
+.projectCard_container {
+  width: calc((100% - 9%)/3);
+  height: 600px;
+  background-color: $background_dark;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+  padding: 2%;
+  box-shadow: 4px 4px 2px $shadow;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease-in-out;
+
+  &:hover {
+    border-bottom: 3px solid $border_blue;
+    box-shadow: 2px 2px 2px $shadow;
+  }
+
+  .projectCard_content {
+    width: 100%;
+    height: fit-content;
+
+    .projectCard_img {
+      height: 25vh;
+      width: 100%;
+      margin-bottom: 2vh;
+    }
+
+    .projectCard_title {
+      width: 90%;
+      color: $title_light;
+      font-size: 1.8rem;
+      line-height: 1.2;
+      padding-bottom: 1vh;
+      border-bottom: 1px solid $border_blue;
+      margin-bottom: 2vh;
+    }
+
+    .projectCard_description {
+      font-size: 1.2rem;
+      color: $body_light;
+      line-height: 1.4;
+    }
+  }
+
+  .links_conatiner {
+
+    .link {
+      margin-right: 20px;
+      color: lightgrey;
+      text-decoration: none;
+    
+      &:hover {
+        color: dodgerblue;
+        text-decoration: underline;
+      }
+    }
+  }
+}
