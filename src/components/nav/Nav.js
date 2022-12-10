@@ -63,6 +63,15 @@ function Nav({toggle, isOpen}) {
           exact="true"
           offset={-60}
         >Projects</LinkS>
+        <LinkS 
+          className="link"
+          to="contact"
+          smooth={true}
+          duration={500}
+          spy={true}
+          exact="true"
+          offset={-60}
+        >Contact</LinkS>
       </div>
     </nav>
   );
