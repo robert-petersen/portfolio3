@@ -14,8 +14,8 @@ const Projects = () => {
         }
       </div>
       <div className="projects_transition">
-        <div className="transition_right"></div>
         <div className="transition_left"></div>
+        <div className="transition_right"></div>
       </div>
     </section>
   );
