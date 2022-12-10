@@ -34,18 +34,18 @@
     background-color: $background_light;
     display: flex;
 
-    .transition_right {
-      width: 50%;
-      height: 10vh;
-      background-color: $background_dark;
-      clip-path: polygon(0 100%, 0 0, 100% 100%);
-    }
-
     .transition_left {
       width: 50%;
       height: 10vh;
       background-color: $background_dark;
-      clip-path: polygon(100% 100%, 100% 0, 0 100%);
+      clip-path: polygon(0 101%, 0 0, 100% 101%);
+    }
+
+    .transition_right {
+      width: 50%;
+      height: 10vh;
+      background-color: $background_dark;
+      clip-path: polygon(100% 101%, 100% 0, 0 101%);
     }
   }
 }
