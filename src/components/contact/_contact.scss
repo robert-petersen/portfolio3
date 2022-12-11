@@ -72,21 +72,47 @@
         align-items: center;
 
         .social_link {
+          position: relative;
           text-decoration: none;
-          margin: 20px;
-        }
+          padding: 20px;
+          margin: 10px;
 
-        .icon {
-          font-size: 3rem;
-          color: dodgerblue;
-          transition: 0.3s ease-in-out;
-          &:hover {
-            color: white;
+          .icon {
+            font-size: 3rem;
+            color: dodgerblue;
+            transition: 0.3s ease-in-out;
+            margin-bottom: 30px;
+            
+            &:hover {
+              color: white;
+              padding-top: 2px;
+              padding-bottom: 2px;
+            }
+          }
+  
+          .tooltip {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            text-align: center;
+            padding: 10px;
+            color: lightgrey;
+            background-color: dodgerblue;
+            font-weight: bold;
+            border-radius: 10px;
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.3s ease-in-out;
+          }
+
+          .unhide {
+            visibility: visible;
+            opacity: 1;
           }
         }
       }
     }
-
   }
 
   .contact_copyright {

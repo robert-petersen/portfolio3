@@ -943,19 +943,46 @@ body::-webkit-scrollbar-thumb {
 }
 
 #contact .contact_content_container .contact_content .contact_socials_container .social_link {
+  position: relative;
   text-decoration: none;
-  margin: 20px;
+  padding: 20px;
+  margin: 10px;
 }
 
-#contact .contact_content_container .contact_content .contact_socials_container .icon {
+#contact .contact_content_container .contact_content .contact_socials_container .social_link .icon {
   font-size: 3rem;
   color: dodgerblue;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+  margin-bottom: 30px;
 }
 
-#contact .contact_content_container .contact_content .contact_socials_container .icon:hover {
+#contact .contact_content_container .contact_content .contact_socials_container .social_link .icon:hover {
   color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#contact .contact_content_container .contact_content .contact_socials_container .social_link .tooltip {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  padding: 10px;
+  color: lightgrey;
+  background-color: dodgerblue;
+  font-weight: bold;
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#contact .contact_content_container .contact_content .contact_socials_container .social_link .unhide {
+  visibility: visible;
+  opacity: 1;
 }
 
 #contact .contact_copyright {
