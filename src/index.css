@@ -839,6 +839,7 @@ body::-webkit-scrollbar-thumb {
 
 #contact .contact_content_container {
   width: 100%;
+  height: calc(90vh - 60px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -932,8 +933,6 @@ body::-webkit-scrollbar-thumb {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -942,51 +941,7 @@ body::-webkit-scrollbar-thumb {
           align-items: center;
 }
 
-#contact .contact_content_container .contact_content .contact_socials_container .social_link {
-  position: relative;
-  text-decoration: none;
-  padding: 20px;
-  margin: 10px;
-}
-
-#contact .contact_content_container .contact_content .contact_socials_container .social_link .icon {
-  font-size: 3rem;
-  color: dodgerblue;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  margin-bottom: 30px;
-}
-
-#contact .contact_content_container .contact_content .contact_socials_container .social_link .icon:hover {
-  color: white;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-#contact .contact_content_container .contact_content .contact_socials_container .social_link .tooltip {
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-  padding: 10px;
-  color: lightgrey;
-  background-color: dodgerblue;
-  font-weight: bold;
-  border-radius: 10px;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-}
-
-#contact .contact_content_container .contact_content .contact_socials_container .social_link .unhide {
-  visibility: visible;
-  opacity: 1;
-}
-
 #contact .contact_copyright {
-  margin-top: 10vh;
   width: 100%;
   height: 10vh;
   background-color: #262626;
@@ -1010,5 +965,72 @@ body::-webkit-scrollbar-thumb {
 #contact .contact_copyright .copyright_icon {
   font-size: 1rem;
   color: dodgerblue;
+}
+
+.social_card {
+  width: 20%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social_card .social_link {
+  width: 8vh;
+  height: 8vh;
+  text-decoration: none;
+  color: dodgerblue;
+  background-color: #262626;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 15px;
+  -webkit-box-shadow: 1px 1px black;
+          box-shadow: 1px 1px black;
+  font-size: 4.5rem;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.social_card .social_link:hover {
+  color: white;
+  -webkit-box-shadow: 1px 1px lightslategray;
+          box-shadow: 1px 1px lightslategray;
+}
+
+.social_card .tooltip {
+  width: 90%;
+  margin-top: 2vh;
+  text-align: center;
+  padding: 10px;
+  color: lightgrey;
+  background-color: dodgerblue;
+  font-weight: bold;
+  border-radius: 10px;
+  visibility: hidden;
+  opacity: .5;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.social_card .unhide {
+  visibility: visible;
+  opacity: 1;
 }
 /*# sourceMappingURL=index.css.map */
