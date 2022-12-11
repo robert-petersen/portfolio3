@@ -38,6 +38,7 @@ const MobileNav = ({ isOpen, toggle }) => {
         <LinkS 
           className="link"
           to="contact"
+          onClick={toggle} 
           smooth={true}
           duration={500}
           spy={true}
