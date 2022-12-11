@@ -1,8 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
-import { RiMediumFill } from "react-icons/ri";
-import { BiCopyright } from "react-icons/bi";
-import { ImProfile } from "react-icons/im";
+import { FaLinkedin, FaGithub, FaMediumM, FaPenSquare, FaRegCopyright } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -29,24 +26,24 @@ const Contact = () => {
               href="https://github.com/robert-petersen" 
               target="_blank" 
               rel="noreferrer"
-            ><FaGithubSquare className="icon"/></a>
+            ><FaGithub className="icon"/></a>
             <a 
               className="social_link"
               href="https://robert-petersen.medium.com/" 
               target="_blank" 
               rel="noreferrer"
-            ><RiMediumFill className="icon"/></a>
+            ><FaMediumM className="icon"/></a>
             <a 
               className="social_link"
               href="https://resume.io/r/FFjx1r7fT" 
               target="_blank" 
               rel="noreferrer"
-            ><ImProfile className="icon"/></a>
+            ><FaPenSquare className="icon"/></a>
           </div>
         </div>
       </div>
       <div className="contact_copyright">
-        <BiCopyright className="copyright_icon"/>
+        <FaRegCopyright className="copyright_icon"/>
         <h4>Robert Petersen 2022</h4>
       </div>
     </section>
