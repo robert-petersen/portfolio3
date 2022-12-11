@@ -1,15 +1,9 @@
-import React, {useState} from "react";
-import { FaLinkedin, FaGithub, FaMediumM, FaPenSquare, FaRegCopyright } from "react-icons/fa";
+import React from "react";
+import { FaRegCopyright } from "react-icons/fa";
+import SocialCard from "./SocialCard";
+import { socialData } from "./socialData";
 
 const Contact = () => {
-  const [hover, setHover] = useState(false);
-  const [social, setSocial] = useState("");
-
-  const onHover = (thisSocial) => {
-    setHover(!hover);
-    setSocial(thisSocial);
-  }
-
   return (
     <section id="contact">
       <div className="contact_content_container">
@@ -23,70 +17,11 @@ const Contact = () => {
           <h1>Check Out More</h1>
           <p>Check out my social media and projects I've been working on here!</p>
           <div className="contact_socials_container">
-            <a 
-              className="social_link"
-              href="https://www.linkedin.com/in/robert-petersen808/" 
-              target="_blank" 
-              rel="noreferrer"
-              onMouseEnter={() => onHover("linkedIn")} 
-              onMouseLeave={() => onHover("")}
-            >
-              <FaLinkedin className="icon"/>
-              <span className={
-                  hover === true && social === "linkedIn" 
-                  ? "tooltip unhide"
-                  : "tooltip"
-                }>LinkedIn
-              </span>
-            </a>
-            <a 
-              className="social_link"
-              href="https://github.com/robert-petersen" 
-              target="_blank" 
-              rel="noreferrer"
-              onMouseEnter={() => onHover("github")} 
-              onMouseLeave={() => onHover("")}
-            >
-              <FaGithub className="icon"/>
-              <span className={
-                  hover === true && social === "github" 
-                  ? "tooltip unhide"
-                  : "tooltip"
-                }>GitHub
-              </span>
-            </a>
-            <a 
-              className="social_link"
-              href="https://robert-petersen.medium.com/" 
-              target="_blank" 
-              rel="noreferrer"
-              onMouseEnter={() => onHover("medium")} 
-              onMouseLeave={() => onHover("")}
-            >
-              <FaMediumM className="icon"/>
-              <span className={
-                  hover === true && social === "medium" 
-                  ? "tooltip unhide"
-                  : "tooltip"
-                }>Medium
-              </span>
-            </a>
-            <a 
-              className="social_link"
-              href="https://resume.io/r/FFjx1r7fT" 
-              target="_blank" 
-              rel="noreferrer"
-              onMouseEnter={() => onHover("resume")} 
-              onMouseLeave={() => onHover("")}
-            >
-              <FaPenSquare className="icon"/>
-              <span className={
-                  hover === true && social === "resume" 
-                  ? "tooltip unhide"
-                  : "tooltip"
-                }>Resume
-              </span>
-            </a>
+            {
+              socialData.map((socialInfo, index) => {
+                return <SocialCard key={index} socialInfo={socialInfo}/>;
+              })
+            }
           </div>
         </div>
       </div>

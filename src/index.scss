@@ -92,6 +92,7 @@ $border_blue: dodgerblue;
 $border_darker: #262626;
 $border_dark: #404040;
 $shadow: lightslategray;
+$dark_shadow: black;
 
 // Text Colors
 $title_dark: #262626;
@@ -122,3 +123,4 @@ $large_desktop: 1950px;
 @import "./components/projects/projects";
 @import "./components/projects/projectCard";
 @import "./components/contact/contact";
+@import "./components/contact/socialCard";
