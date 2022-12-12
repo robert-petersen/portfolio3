@@ -45,5 +45,6 @@ A react library that provides tools to easily animate vertical scrolling. Docs c
 
 ### "Hacked" View
 
+In the future I plan on including a "hacking minigame" to be found that will unlock a new view to display game like projects I create.
 
 ## Issues I've Overcome
