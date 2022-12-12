@@ -8,7 +8,7 @@ import Skills from "../components/skills/Skills";
 import Projects from "../components/projects/Projects";
 import Contact from "../components/contact/Contact";
 
-function HomeView() {
+function DefaultView() {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
@@ -28,4 +28,4 @@ function HomeView() {
   );
 }
 
-export default HomeView;
+export default DefaultView;
