@@ -1,10 +1,11 @@
 # Robert Petersen's Portfolio Website v3
 
+A website to display information about myself, my professional skills, and my previous work.
+
 ## Contents
 
 - [Dependencies](#dependencies)
 - [Future Improvements](#future-improvements)
-- [Issues I've Overcome](#issues-ive-overcome)
 
 ## Dependencies
 
@@ -46,5 +47,3 @@ A react library that provides tools to easily animate vertical scrolling. Docs c
 ### "Hacked" View
 
 In the future I plan on including a "hacking minigame" to be found that will unlock a new view to display game like projects I create.
-
-## Issues I've Overcome
