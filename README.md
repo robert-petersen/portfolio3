@@ -1,6 +1,6 @@
 # Robert Petersen's Portfolio Website v3
 
-A website to display information about myself, my professional skills, and my previous work.
+A website to display information about myself, my professional skills, and my previous work
 
 ## Contents
 
