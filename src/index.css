@@ -138,11 +138,23 @@ body::-webkit-scrollbar-thumb {
   text-shadow: 3px 3px 2px lightslategray;
 }
 
+@media screen and (max-width: 500px) {
+  .landing_container .landing_text_container h1 {
+    font-size: 3rem;
+  }
+}
+
 .landing_container .landing_text_container h2 {
   padding-top: 40px;
   font-size: 2.4rem;
   text-align: center;
   text-shadow: 3px 3px 2px lightslategray;
+}
+
+@media screen and (max-width: 500px) {
+  .landing_container .landing_text_container h2 {
+    font-size: 2rem;
+  }
 }
 
 .landing_container .landing_text_container .landing_button {
@@ -171,11 +183,6 @@ body::-webkit-scrollbar-thumb {
   color: whitesmoke;
   -webkit-box-shadow: 2px 2px 3px lightslategray;
           box-shadow: 2px 2px 3px lightslategray;
-}
-
-.landing_container .landing_text_container .arrow {
-  margin-left: 8px;
-  font-size: 1rem;
 }
 
 .landing_container .landing_fadeout {
@@ -224,7 +231,7 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .nav .nav_mobile_icon_container {
     display: block;
     color: white;
@@ -250,7 +257,7 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .nav .nav_links_conatiner {
     display: none;
   }

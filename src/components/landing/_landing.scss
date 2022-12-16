@@ -40,6 +40,10 @@
       font-size: 3.2rem;
       text-align: center;
       text-shadow: 3px 3px 2px $shadow;
+
+      @media screen and (max-width: $phone) {
+        font-size: 3rem;
+      }
     }
 
     h2 {
@@ -47,6 +51,10 @@
       font-size: 2.4rem;
       text-align: center;
       text-shadow: 3px 3px 2px $shadow;
+
+      @media screen and (max-width: $phone) {
+        font-size: 2rem;
+      }
     }
 
     .landing_button {
@@ -67,11 +75,6 @@
         color: whitesmoke;
         box-shadow: 2px 2px 3px $shadow;
       }
-    }
-
-    .arrow {
-      margin-left: 8px;
-      font-size: 1rem;
     }
   }
 
