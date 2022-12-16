@@ -1,15 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {Link as LinkS} from "react-scroll";
 import Video from "../../videos/pexels-crazy-motions-8733062.mp4";
-import {MdArrowDownward as ArrowDownward, MdArrowForward as ArrowForward} from "react-icons/md";
 
 const Landing = () => {
-  const [hover, setHover] = useState(false);
-
-  const onHover = () => {
-    setHover(!hover);
-  }
-
   return (
     <section className='landing_container'>
       <div className='landing_video_container'>
@@ -21,14 +14,12 @@ const Landing = () => {
         <LinkS 
           className='landing_button'
           to="about" 
-          onMouseEnter={onHover} 
-          onMouseLeave={onHover}
           smooth={"true"}
           duration={500}
           spy={true}
           exact="true"
           offset={-60}
-        >Continue {hover ? <ArrowDownward className='arrow'/> : <ArrowForward className='arrow'/>} </LinkS>
+        >Continue</LinkS>
       </div>
       <div className='landing_fadeout'></div>
     </section>

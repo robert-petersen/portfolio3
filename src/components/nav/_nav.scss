@@ -23,7 +23,7 @@
   .nav_mobile_icon_container {
     display: none;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $tablet) {
       display: block;
       color: $title_light;
     }
@@ -41,7 +41,7 @@
     align-items: center;
     height: 100%;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: $tablet) {
       display: none;
     }
 

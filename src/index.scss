@@ -107,10 +107,11 @@ $link_hover_light: dodgerblue;
 $link_hover_white: white;
 
 // media breakpoints
-$phone: 480px;
+$small_phone: 390px;
+$phone: 500px;
 $tablet: 800px;
-$desktop: 1400px;
-$large_desktop: 1950px;
+$desktop: 1440px;
+$large_desktop: 1920px;
 
 // *** Component Sheet Imports ***
 @import "./components/landing/landing";
