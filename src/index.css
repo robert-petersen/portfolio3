@@ -189,6 +189,8 @@ body::-webkit-scrollbar-thumb {
   position: absolute;
   z-index: 2;
   bottom: 0;
+  right: 0;
+  left: 0;
   height: 20vh;
   width: 100%;
   max-width: 100%;
@@ -231,7 +233,7 @@ body::-webkit-scrollbar-thumb {
   display: none;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .nav .nav_mobile_icon_container {
     display: block;
     color: white;
@@ -257,7 +259,7 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .nav .nav_links_conatiner {
     display: none;
   }
@@ -387,14 +389,8 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 15%;
 }
 
-@media screen and (max-width: 800px) {
-  #about {
-    padding-bottom: 0;
-  }
-}
-
 #about .about_me_conatiner {
-  width: 60%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -411,9 +407,21 @@ body::-webkit-scrollbar-thumb {
   color: #262626;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1440px) {
   #about .about_me_conatiner {
     width: 60%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #about .about_me_conatiner {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #about .about_me_conatiner {
+    width: 80%;
   }
 }
 
@@ -437,13 +445,13 @@ body::-webkit-scrollbar-thumb {
           box-shadow: 2px 2px 2px lightslategray;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1440px) {
   #about .about_me_conatiner .about_me_top {
     margin-top: 10vh;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   #about .about_me_conatiner .about_me_top {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -489,7 +497,7 @@ body::-webkit-scrollbar-thumb {
   color: #404040;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   #about .about_me_conatiner .about_me_top .about_education_container {
     margin-top: 5vh;
   }
