@@ -12,41 +12,72 @@
   .about_me_conatiner {
     width: 50%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     color: $title_dark;
 
     @media screen and (max-width: $desktop) {
       width: 60%;
     }
 
+    @media screen and (max-width: $laptop) {
+      flex-direction: column;
+    }
+
     @media screen and (max-width: $tablet) {
       width: 70%;
     }
 
-    @media screen and (max-width: $phone) {
+    @media screen and (max-width: $tablet_xsmall) {
       width: 80%;
     }
 
+    @media screen and (max-width: $phone) {
+      width: 90%;
+    }
+
     .about_me_top {
+      width: 39%;
       display: flex;
-      justify-content: space-evenly;
+      flex-direction: column;
+      justify-content: space-between;
       align-items: center;
       margin-bottom: 10vh;
+      
+      @media screen and (max-width: $desktop) {
+        margin-top: 10vh;
+      }
+      
+      @media screen and (max-width: $laptop) {
+        width: 80%;
+      }
+      
+      @media screen and (max-width: $tablet) {
+        flex-direction: column;
+      }
+      
+      @media screen and (max-width: $tablet_xsmall) {
+        width: 90%;
+      }
+
+      @media screen and (max-width: $phone) {
+        width: 80%;
+      }
+
+      @media screen and (max-width: $small_phone) {
+        width: 90%;
+      }
 
       .about_photo{
         width: 30%;
         border-radius: 20px;
         box-shadow: 2px 2px 2px $shadow;
-      }
-    
-      @media screen and (max-width: $desktop) {
-        margin-top: 10vh;
-      }
-    
-      @media screen and (max-width: $tablet) {
-        flex-direction: column;
+        margin-bottom: 7vh;
+
+        @media screen and (max-width: $tablet_xsmall) {
+          margin-bottom: 2vh;
+        }
       }
 
       .about_education_container {
@@ -90,6 +121,29 @@
     }
 
     .about_me_botom {
+      width: 59%;
+
+      @media screen and (max-width: $laptop) {
+        width: 90%;
+      }
+
+      @media screen and (max-width: $laptop) {
+        margin-bottom: 10vh;
+      }
+
+      @media screen and (max-width: $tablet_xsmall) {
+        width: 95%;
+        margin-bottom: 5vh;
+      }
+
+      @media screen and (max-width: $phone) {
+        width: 90%;
+      }
+
+      @media screen and (max-width: $small_phone) {
+        width: 95%;
+      }
+
       h2{
         font-size: 1.6rem;
         margin-top: 2vh;
@@ -98,7 +152,7 @@
         border-bottom: 2px solid $border_blue;
         padding-left: 1vw;
     
-        @media screen and (max-width: 800px) {
+        @media screen and (max-width: $tablet) {
         text-align: center;
         }
       }
@@ -120,19 +174,51 @@
           }
         }
       }
-    
-      @media screen and (max-width: 1500px) {
-        margin-bottom: 10vh;
-      }
     }
   }
 
   .about_skills_container {
-    width: 50%;
+    width: 60%;
     min-height: 60vh;
-    margin-top: 20vh;
+    margin-top: 10vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+
+    @media screen and (max-width: $desktop) {
+      width: 60%;
+    }
+
+    @media screen and (max-width: $laptop) {
+      width: 70%;
+    }
+
+    @media screen and (max-width: $tablet) {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 5vh;
+    }
+
+    @media screen and (max-width: $tablet_small) {
+      width: 80%;
+      margin-bottom: 15vh;
+    }
+
+    @media screen and (max-width: $tablet_xsmall) {
+      width: 85%;
+    }
+
+    @media screen and (max-width: $phone) {
+      width: 100%;
+      margin-top: 5vh;
+    }
+
+    @media screen and (max-width: $small_phone) {
+      margin-bottom: 10vh;
+      margin-top: 10vh;
+    }
   }
 }
