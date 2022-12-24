@@ -1,13 +1,22 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&theme=cobalt" width="100%"/>
 
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 # Robert Petersen's Portfolio Website v3
 
 A website to display information about myself, my professional skills, and my previous work.
 
-## Contents
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
+<br />
+
+## Content
 
 - [Dependencies](#dependencies)
+- [Portfolio Iterations](#portfolio-iterations)
 - [Future Improvements](#future-improvements)
+
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
+<br />
+<br />
 
 ## Dependencies
 
@@ -44,11 +53,38 @@ A great library for tons of icons that can easily be imported. Uses ES6 imports 
 
 A react library that provides tools to easily animate vertical scrolling. Docs can be found [here](https://www.npmjs.com/package/react-scroll).
 
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
+<br />
+<br />
+
+## Portfolio Iterations
+
+A portfolio website for a web developer is a great way to show off your skills, experience, and things about you. As you grow and improve as a developer your portfolio should grow and improve as well. I thought sharing old portfolio designs (even if they are embarassing) would be fun and show my progress as a developer. Below are my past iterations of portfolios, some thoughts on them, and what I am planning for the future.
+
+- [Beginner Attempt](#beginner-attempt)
+- [Second Portfolio](#second-portfolio)
+- [Current Portfolio](#current-portfolio)
+
+### Beginner Attempt
+
+My first portfolio was created in my first month at Lambda School, now known as <a href="https://www.bloomtech.com/" target="_blank" rel=”noreferrer”>Bloom Institute of Technology</a>. We were told to give creating one a try one day when we were first learning HTML and CSS. This one predictably turned out pretty bad in a funny way. It reminds me of a horrible MySpace page. I will find the website and github repo and display it here along with photos.
+
+### Second Portfolio
+
+This was my first real attempt at a portfolio website. I created it using React and <a href="https://styled-components.com/" traget="_blank" rel=”noreferrer”>Styled Components</a>.
+
+### Current Portfolio
+
+
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
+<br />
+<br />
+
 ## Future Improvements
 
 ### "Hacked" View
 
 In the future I plan on including a "hacking minigame" to be found that will unlock a new view to display game like projects I create.
 
-
+<!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&theme=cobalt" width="100%"/>
