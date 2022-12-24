@@ -18,15 +18,16 @@
     color: $title_dark;
 
     @media screen and (max-width: $desktop) {
-      width: 60%;
-    }
-
-    @media screen and (max-width: $laptop) {
+      width: 70%;
       flex-direction: column;
     }
 
+    @media screen and (max-width: $laptop) {
+      // flex-direction: column;
+    }
+
     @media screen and (max-width: $tablet) {
-      width: 70%;
+      // width: 70%;
     }
 
     @media screen and (max-width: $tablet_xsmall) {
@@ -47,6 +48,7 @@
       
       @media screen and (max-width: $desktop) {
         margin-top: 10vh;
+        flex-direction: row;
       }
       
       @media screen and (max-width: $laptop) {
@@ -73,7 +75,10 @@
         width: 30%;
         border-radius: 20px;
         box-shadow: 2px 2px 2px $shadow;
-        margin-bottom: 7vh;
+
+        @media screen and (max-width: $tablet) {
+          margin-bottom: 7vh;
+        }
 
         @media screen and (max-width: $tablet_xsmall) {
           margin-bottom: 2vh;
@@ -123,11 +128,12 @@
     .about_me_botom {
       width: 59%;
 
-      @media screen and (max-width: $laptop) {
-        width: 90%;
+      @media screen and (max-width: $desktop) {
+        margin-bottom: 15vh;
       }
 
       @media screen and (max-width: $laptop) {
+        width: 90%;
         margin-bottom: 10vh;
       }
 

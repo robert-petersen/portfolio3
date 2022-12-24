@@ -409,22 +409,11 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 1920px) {
   #about .about_me_conatiner {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  #about .about_me_conatiner {
+    width: 70%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 962px) {
-  #about .about_me_conatiner {
-    width: 70%;
   }
 }
 
@@ -461,6 +450,10 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 1920px) {
   #about .about_me_conatiner .about_me_top {
     margin-top: 10vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
@@ -502,7 +495,12 @@ body::-webkit-scrollbar-thumb {
   border-radius: 20px;
   -webkit-box-shadow: 2px 2px 2px lightslategray;
           box-shadow: 2px 2px 2px lightslategray;
-  margin-bottom: 7vh;
+}
+
+@media screen and (max-width: 962px) {
+  #about .about_me_conatiner .about_me_top .about_photo {
+    margin-bottom: 7vh;
+  }
 }
 
 @media screen and (max-width: 601px) {
@@ -561,14 +559,15 @@ body::-webkit-scrollbar-thumb {
   width: 59%;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1920px) {
   #about .about_me_conatiner .about_me_botom {
-    width: 90%;
+    margin-bottom: 15vh;
   }
 }
 
 @media screen and (max-width: 1440px) {
   #about .about_me_conatiner .about_me_botom {
+    width: 90%;
     margin-bottom: 10vh;
   }
 }
