@@ -67,7 +67,7 @@ A portfolio website for a web developer is a great way to show off your skills, 
 
 ### Beginner Attempt
 
-My first portfolio was created in my first month at Lambda School, now known as <a href="https://www.bloomtech.com/" target="_blank" rel=”noreferrer”>Bloom Institute of Technology</a>. We were told to give creating one a try one day when we were first learning HTML and CSS. This one predictably turned out pretty bad in a funny way. It reminds me of a horrible MySpace page. I will find the website and github repo and display it here along with photos.
+My first portfolio was created in my first month at Lambda School, now known as <a href="https://www.bloomtech.com/" target="_blank" rel=”noreferrer”>Bloom Institute of Technology</a>. We were told to give creating one a try one day when we were first learning HTML and CSS. This one predictably turned out pretty bad in a funny way. It reminds me of a horrible MySpace page. I plan to try to find the hideous website and github repo and display it here along with photos.
 
 ### Second Portfolio
 
