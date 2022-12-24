@@ -71,10 +71,11 @@ My first portfolio was created in my first month at Lambda School, now known as 
 
 ### Second Portfolio
 
-This was my first real attempt at a portfolio website. I created it using React and <a href="https://styled-components.com/" traget="_blank" rel=”noreferrer”>Styled Components</a>.
+This was my first real attempt at a portfolio website. I created it using React and <a href="https://styled-components.com/" traget="_blank" rel=”noreferrer”>Styled Components</a>. Check out the <a href="https://github.com/robert-petersen/portfolio2" target="_blank" rel="norefferer" >Github repo</a>.
 
 ### Current Portfolio
 
+This version is a refactor of the previous version plus a few new features and content. I decided to switch my styles from Styled Components to SASS. I felt Styled Components was less popular and SASS offers alot of great features while sticking closer to traditional CSS practices. This version is also a way to strat reworking the functionality of the website and eventulally the styles and themes as well.
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <br />
