@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=My%20Portfolio&fontSize=60" width="100%"/>
+
 # Robert Petersen's Portfolio Website v3
 
 A website to display information about myself, my professional skills, and my previous work.
@@ -47,3 +49,6 @@ A react library that provides tools to easily animate vertical scrolling. Docs c
 ### "Hacked" View
 
 In the future I plan on including a "hacking minigame" to be found that will unlock a new view to display game like projects I create.
+
+
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=footer" width="100%"/>
