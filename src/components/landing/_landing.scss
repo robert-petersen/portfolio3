@@ -41,7 +41,7 @@
       text-align: center;
       text-shadow: 3px 3px 2px $shadow;
 
-      @media screen and (max-width: $phone) {
+      @media screen and (max-width: $tablet_xsmall) {
         font-size: 3rem;
       }
     }
@@ -52,7 +52,7 @@
       text-align: center;
       text-shadow: 3px 3px 2px $shadow;
 
-      @media screen and (max-width: $phone) {
+      @media screen and (max-width: $tablet_xsmall) {
         font-size: 2rem;
       }
     }
