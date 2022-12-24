@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=My%20Portfolio&fontSize=60" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=header&" width="100%"/>
 
 # Robert Petersen's Portfolio Website v3
 
