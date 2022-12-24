@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=header&" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=100&section=header&" width="100%"/>
 
 # Robert Petersen's Portfolio Website v3
 
@@ -51,4 +51,4 @@ A react library that provides tools to easily animate vertical scrolling. Docs c
 In the future I plan on including a "hacking minigame" to be found that will unlock a new view to display game like projects I create.
 
 
-<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=200&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=100&section=footer" width="100%"/>
