@@ -15,4 +15,12 @@
 .skill_icon {
   color: $border_blue;
   font-size: 4rem;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 3rem;
+  }
+
+  @media screen and (max-width: $phone) {
+    font-size: 2rem;
+  }
 }
