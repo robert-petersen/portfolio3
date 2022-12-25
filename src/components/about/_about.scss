@@ -22,14 +22,6 @@
       flex-direction: column;
     }
 
-    @media screen and (max-width: $laptop) {
-      // flex-direction: column;
-    }
-
-    @media screen and (max-width: $tablet) {
-      // width: 70%;
-    }
-
     @media screen and (max-width: $tablet_xsmall) {
       width: 80%;
     }
