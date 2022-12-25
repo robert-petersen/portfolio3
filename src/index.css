@@ -849,6 +849,18 @@ body::-webkit-scrollbar-thumb {
   margin-top: 10vh;
 }
 
+@media screen and (max-width: 962px) {
+  #skills .skills_container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #skills .skills_container {
+    width: 90%;
+  }
+}
+
 #skills .skills_container h1 {
   width: 100%;
   font-size: 2.4rem;
@@ -856,6 +868,19 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 2vh;
   border-bottom: 2px solid dodgerblue;
   padding-left: 1vw;
+}
+
+@media screen and (max-width: 962px) {
+  #skills .skills_container h1 {
+    width: 80%;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #skills .skills_container h1 {
+    font-size: 1.6rem;
+  }
 }
 
 #skills .skills_container .skill_card_container {
@@ -898,6 +923,18 @@ body::-webkit-scrollbar-thumb {
 .skill_icon {
   color: dodgerblue;
   font-size: 4rem;
+}
+
+@media screen and (max-width: 962px) {
+  .skill_icon {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .skill_icon {
+    font-size: 2rem;
+  }
 }
 
 #projects {
