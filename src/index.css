@@ -988,6 +988,12 @@ body::-webkit-scrollbar-thumb {
   padding-left: 1vw;
 }
 
+@media screen and (max-width: 414px) {
+  #projects .projects_heading {
+    font-size: 2rem;
+  }
+}
+
 #projects .projects_container {
   width: 80%;
   display: -webkit-box;
@@ -1002,6 +1008,24 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 10vh;
+}
+
+@media screen and (max-width: 768px) {
+  #projects .projects_container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  #projects .projects_container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #projects .projects_container {
+    width: 95%;
+  }
 }
 
 #projects .projects_transition {
@@ -1031,7 +1055,7 @@ body::-webkit-scrollbar-thumb {
 
 .projectCard_container {
   width: calc((100% - 9%)/3);
-  height: 600px;
+  height: 650px;
   background-color: #404040;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1050,6 +1074,45 @@ body::-webkit-scrollbar-thumb {
   border-bottom: 3px solid transparent;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 1440px) {
+  .projectCard_container {
+    height: 630px;
+  }
+}
+
+@media screen and (max-width: 962px) {
+  .projectCard_container {
+    width: calc((100% - 9%)/2);
+    height: 525px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projectCard_container {
+    height: 650px;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .projectCard_container {
+    width: calc(100% - 9%);
+    padding: 5%;
+    height: 625px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .projectCard_container {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .projectCard_container {
+    height: 450px;
+  }
 }
 
 .projectCard_container:hover {
@@ -1081,16 +1144,34 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 2vh;
 }
 
+@media screen and (max-width: 414px) {
+  .projectCard_container .projectCard_content .projectCard_title {
+    font-size: 1.2rem;
+  }
+}
+
 .projectCard_container .projectCard_content .projectCard_description {
   font-size: 1.2rem;
   color: lightgrey;
   line-height: 1.4;
 }
 
+@media screen and (max-width: 414px) {
+  .projectCard_container .projectCard_content .projectCard_description {
+    font-size: 0.9rem;
+  }
+}
+
 .projectCard_container .links_conatiner .link {
   margin-right: 20px;
   color: lightgrey;
   text-decoration: none;
+}
+
+@media screen and (max-width: 414px) {
+  .projectCard_container .links_conatiner .link {
+    font-size: 0.9rem;
+  }
 }
 
 .projectCard_container .links_conatiner .link:hover {
