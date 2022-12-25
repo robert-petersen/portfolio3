@@ -613,6 +613,12 @@ body::-webkit-scrollbar-thumb {
   color: #404040;
 }
 
+@media screen and (max-width: 414px) {
+  #about .about_me_conatiner .about_me_botom p {
+    font-size: 1.1rem;
+  }
+}
+
 #about .about_me_conatiner .about_me_botom p a {
   text-decoration: none;
   color: #262626;
@@ -734,6 +740,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    padding: 4vh;
   }
 }
 
@@ -746,6 +753,7 @@ body::-webkit-scrollbar-thumb {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 3vh;
   }
 }
 
@@ -791,11 +799,23 @@ body::-webkit-scrollbar-thumb {
   color: white;
 }
 
+@media screen and (max-width: 414px) {
+  .about_skill_card .card_text_content h1 {
+    font-size: 1.2rem;
+  }
+}
+
 .about_skill_card .card_text_content p {
   margin-top: 2vh;
   line-height: 1.8;
   color: lightgrey;
   text-align: center;
+}
+
+@media screen and (max-width: 414px) {
+  .about_skill_card .card_text_content p {
+    font-size: 1rem;
+  }
 }
 
 .about_icon {
