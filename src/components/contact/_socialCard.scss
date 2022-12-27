@@ -7,8 +7,8 @@
   align-items: center;
 
   .social_link {
-    width: 8vh;
-    height: 8vh;
+    min-width: 8vh;
+    min-height: 8vh;
     text-decoration: none;
     color: dodgerblue;
     background-color: $background_darker;
@@ -19,6 +19,20 @@
     box-shadow: 1px 1px $dark_shadow;
     font-size: 4.5rem;
     transition: 0.3s ease-in-out;
+
+    @media screen and (max-width: $laptop) {
+      font-size: 4rem;
+    }
+
+    @media screen and (max-width: $tablet) {
+      font-size: 2.75rem;
+    }
+
+    @media screen and (max-width: $phone) {
+      min-width: 6vh;
+      min-height: 6vh;
+      font-size: 2.8rem;
+    }
 
     &:hover {
       color: white;
