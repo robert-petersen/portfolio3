@@ -79,6 +79,7 @@ This was my first real attempt at a portfolio website. I created it using React 
 This version is a refactor of the previous version plus a few new features and content. I decided to switch my styles from Styled Components to SASS. I felt Styled Components was less popular and SASS offers alot of great features while sticking closer to traditional CSS practices. This version is also a way to strat reworking the functionality of the website and eventulally the styles and themes as well.
 
 ### Future Portfolio
+<!-- final portfolio here -->
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <br />
