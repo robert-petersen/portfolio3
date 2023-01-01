@@ -5,8 +5,8 @@ import { socialData } from "./socialData";
 
 const Contact = () => {
   return (
-    <section id="contact">
-      <div className="contact_content_container">
+    <footer id="contact">
+      <section className="contact_content_container">
         <div className="contact_content">
           <h1>Contact Me</h1>
           <p>
@@ -20,12 +20,12 @@ const Contact = () => {
             }
           </div>
         </div>
-      </div>
-      <div className="contact_copyright">
+      </section>
+      <section className="contact_copyright">
         <FaRegCopyright className="copyright_icon"/>
         <h4>Robert Petersen 2022</h4>
-      </div>
-    </section>
+      </section>
+    </footer>
   );
 }
 
