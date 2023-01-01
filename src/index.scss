@@ -47,11 +47,11 @@ table {
 	border-spacing: 0;
 }
 
-
-// *** Font Import / Overall Styles ***
+// *** Font Import ***
 @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
+// *** Overall Styles ***
 * {
   font-size: 62.5%;
 	box-sizing: border-box;
@@ -106,7 +106,7 @@ $link_hover_dark: dodgerblue;
 $link_hover_light: dodgerblue;
 $link_hover_white: white;
 
-// media breakpoints
+// Media Breakpoints
 $small_phone: 375px;
 $phone: 414px;
 $tablet_xsmall: 601px;
@@ -115,7 +115,7 @@ $tablet: 962px;
 $laptop: 1440px;
 $desktop: 1920px;
 
-// *** Component Sheet Imports ***
+// *** SCSS Component Sheet Imports ***
 @import "./components/landing/landing";
 @import "./components/nav/nav";
 @import "./components/mobileNav/mobileNav";
