@@ -35,44 +35,52 @@ function Nav({toggle, isOpen}) {
           onClick={toggle}
         />
       </div>
-      <div className="nav_links_conatiner">
-        <LinkS 
-          className="link"
-          to="about"
-          smooth={"true"}
-          duration={500}
-          spy={true}
-          exact="true"
-          offset={-60}
-        >About</LinkS>
-        <LinkS 
-          className="link"
-          to="skills"
-          smooth={true}
-          duration={500}
-          spy={true}
-          exact="true"
-          offset={-60}
-        >Skills</LinkS>
-        <LinkS 
-          className="link"
-          to="projects"
-          smooth={true}
-          duration={500}
-          spy={true}
-          exact="true"
-          offset={-60}
-        >Projects</LinkS>
-        <LinkS 
-          className="link"
-          to="contact"
-          smooth={true}
-          duration={500}
-          spy={true}
-          exact="true"
-          offset={-60}
-        >Contact</LinkS>
-      </div>
+      <ul className="nav_links_conatiner">
+        <li>
+          <LinkS 
+            className="link"
+            to="about"
+            smooth={"true"}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-60}
+          >About</LinkS>
+        </li>
+        <li>
+          <LinkS 
+            className="link"
+            to="skills"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-60}
+          >Skills</LinkS>
+        </li>
+        <li>
+          <LinkS 
+            className="link"
+            to="projects"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-60}
+          >Projects</LinkS>
+        </li>
+        <li>
+          <LinkS 
+            className="link"
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-60}
+          >Contact</LinkS>
+        </li>
+      </ul>
     </nav>
   );
 }
