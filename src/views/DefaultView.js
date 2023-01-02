@@ -16,15 +16,19 @@ function DefaultView() {
   }
 
   return (
-    <section>
-      <Nav isOpen={isOpen} toggle={toggle} />
-      <MobileNav isOpen={isOpen} toggle={toggle} />
-      <Landing />
-      <About />
-      <Skills />
-      <Projects />
+    <>
+      <header>
+        <Nav isOpen={isOpen} toggle={toggle} />
+        <MobileNav isOpen={isOpen} toggle={toggle} />
+        <Landing />
+      </header>
+      <main>
+        <About />
+        <Skills />
+        <Projects />
+      </main>
       <Contact />
-    </section>
+    </>
   );
 }
 
