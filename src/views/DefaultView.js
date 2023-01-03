@@ -16,7 +16,7 @@ function DefaultView() {
   }
 
   return (
-    <section>
+    <main>
       <Nav isOpen={isOpen} toggle={toggle} />
       <MobileNav isOpen={isOpen} toggle={toggle} />
       <Landing />
@@ -24,7 +24,7 @@ function DefaultView() {
       <Skills />
       <Projects />
       <Contact />
-    </section>
+    </main>
   );
 }
 
