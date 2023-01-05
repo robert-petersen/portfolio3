@@ -5,8 +5,8 @@ import {aboutDataSet} from "./aboutData";
 
 function About() {
   return (
-    <section id="about">
-      <div className="about_me_conatiner">
+    <article id="about">
+      <section className="about_me_conatiner">
         <div className="about_me_top">
           <img className="about_photo" src={Robert} alt="Robert Petersen"/>
           <div className="about_education_container">
@@ -41,15 +41,15 @@ function About() {
             > resume</a>.
           </p>
         </div>
-      </div>
-      <div className="about_skills_container">
+      </section>
+      <section className="about_skills_container">
         {
           aboutDataSet.map((info, index)=>{
             return <AboutSkill key={index} info={info}/>;
           })
         }
-      </div>
-    </section>
+      </section>
+    </article>
   );
 }
 
