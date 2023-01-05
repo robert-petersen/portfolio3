@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({projectInfo}) => {
   return (
-    <div className="projectCard_container">
+    <section className="projectCard_container">
       <div className="projectCard_content">
         <img className="projectCard_img" src={projectInfo.img} alt={projectInfo.alt} />
         <h2 className="projectCard_title">{projectInfo.title}</h2>
@@ -25,7 +25,7 @@ const ProjectCard = ({projectInfo}) => {
             : <a className="link" href={projectInfo.blogLink} target="_blank" rel="noreferrer">View Project Blog</a>
         }
       </div>
-    </div>
+    </section>
   );
 }
 

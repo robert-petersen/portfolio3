@@ -4,8 +4,10 @@ import {projectData} from "./projectData";
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <h1 className="projects_heading">What I've Created</h1>
+    <article id="projects">
+      <header>
+        <h1 className="projects_heading">What I've Created</h1>
+      </header>
       <div className="projects_container">
         {
           projectData.map((projectInfo, index) => {
@@ -17,7 +19,7 @@ const Projects = () => {
         <div className="transition_left"></div>
         <div className="transition_right"></div>
       </div>
-    </section>
+    </article>
   );
 }
 
