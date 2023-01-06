@@ -791,12 +791,19 @@ body::-webkit-scrollbar-thumb {
 .about_skill_card .card_text_content h1 {
   width: 70%;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   margin-top: 4vh;
   padding-bottom: 1vh;
   border-bottom: 2vh;
   border-bottom: 1px solid dodgerblue;
   color: white;
+}
+
+@media screen and (max-width: 962px) {
+  .about_skill_card .card_text_content h1 {
+    font-size: 1.3rem;
+    margin-top: 0vh;
+  }
 }
 
 @media screen and (max-width: 414px) {
@@ -810,11 +817,18 @@ body::-webkit-scrollbar-thumb {
   line-height: 1.8;
   color: lightgrey;
   text-align: center;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width: 962px) {
+  .about_skill_card .card_text_content p {
+    font-size: .9rem;
+  }
 }
 
 @media screen and (max-width: 414px) {
   .about_skill_card .card_text_content p {
-    font-size: 1rem;
+    font-size: .8rem;
   }
 }
 
@@ -977,6 +991,23 @@ body::-webkit-scrollbar-thumb {
           align-items: center;
 }
 
+#projects header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #projects .projects_heading {
   width: 70%;
   font-size: 2.4rem;
@@ -1079,12 +1110,12 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 1440px) {
   .projectCard_container {
     height: 630px;
+    width: calc((100% - 9%)/2);
   }
 }
 
 @media screen and (max-width: 962px) {
   .projectCard_container {
-    width: calc((100% - 9%)/2);
     height: 525px;
   }
 }
@@ -1166,6 +1197,7 @@ body::-webkit-scrollbar-thumb {
   margin-right: 20px;
   color: lightgrey;
   text-decoration: none;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 414px) {

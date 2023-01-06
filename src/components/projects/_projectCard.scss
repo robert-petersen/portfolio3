@@ -13,10 +13,11 @@
 
   @media screen and (max-width: $laptop) {
     height: 630px;
+    width: calc((100% - 9%)/2);
   }
 
   @media screen and (max-width: $tablet) {
-    width: calc((100% - 9%)/2);
+    // width: calc((100% - 9%)/2);
     height: 525px;
   }
 
@@ -84,6 +85,7 @@
       margin-right: 20px;
       color: lightgrey;
       text-decoration: none;
+      font-size: 1rem;
 
       @media screen and (max-width: $phone) {
         font-size: 0.9rem;
