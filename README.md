@@ -22,11 +22,11 @@ A website to display information about myself, my professional skills, and my pr
 
 ### React
 
-A JavaScript framework and library created by Facebook (Meta) thats used to build user interfaces quickly and with less code than vanilla JavaScript. Create reusable components to build your application following **DRY**. React aslo has a more efficient method of manipulating the DOM to render web pages faster. React docs can be found [here](https://reactjs.org/docs/getting-started.html).
+  A JavaScript framework and library created by Facebook (Meta) thats used to build user interfaces quickly and with less code than vanilla JavaScript. Create reusable components to build your application following **DRY**. React aslo has a more efficient method of manipulating the DOM to render web pages faster. React docs can be found [here](https://reactjs.org/docs/getting-started.html).
 
 ### Sass
 
-A CSS preprocesser that includes great features like variables, nesting, mixins, and inheritance. Great for updating colors and themes quickly with variables, and for creating mixins for commonly used CSS, like centering elements within a container. Sass docs can be found [here](https://sass-lang.com/guide).
+  A CSS preprocesser that includes great features like variables, nesting, mixins, and inheritance. Great for updating colors and themes quickly with variables, and for creating mixins for commonly used CSS, like centering elements within a container. Sass docs can be found [here](https://sass-lang.com/guide).
 ```
 // create a mixin
 @mixin center {
