@@ -72,7 +72,7 @@ My first portfolio was created in my first month at Lambda School, now known as 
 
 ### Second Portfolio
 
-This was my first real attempt at a portfolio website. I created it using React and <a href="https://styled-components.com/" traget="_blank" rel=”noreferrer”>Styled Components</a>. Check out the <a href="https://github.com/robert-petersen/portfolio2" target="_blank" rel="norefferer" >Github repo</a>.
+This was my first real attempt at a portfolio website. I created it using React and <a href="https://styled-components.com/" traget="_blank" rel=”noreferrer”>Styled Components</a>. Check out the <a href="https://github.com/robert-petersen/portfolio2" target="_blank" rel="norefferer" >Github repo</a> and the <a href="https://robert-petersen-old.vercel.app/" target="_blank" rel="norefferer">deployed website</a>.
 
 ### Current Portfolio
 
