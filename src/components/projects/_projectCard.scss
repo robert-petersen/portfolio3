@@ -17,12 +17,10 @@
   }
 
   @media screen and (max-width: $tablet) {
-    // width: calc((100% - 9%)/2);
-    height: 525px;
+    height: 650px;
   }
 
   @media screen and (max-width: $tablet_small) {
-    height: 650px;
   }
 
   @media screen and (max-width: $tablet_xsmall) {

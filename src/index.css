@@ -1116,12 +1116,6 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 962px) {
   .projectCard_container {
-    height: 525px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .projectCard_container {
     height: 650px;
   }
 }
@@ -1269,7 +1263,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 962px) {
   #contact .contact_content_container .contact_content {
-    width: 70%;
+    width: 50%;
   }
 }
 
@@ -1324,6 +1318,7 @@ body::-webkit-scrollbar-thumb {
 @media screen and (max-width: 962px) {
   #contact .contact_content_container .contact_content p {
     font-size: 1.1rem;
+    line-height: 2;
   }
 }
 
@@ -1443,8 +1438,8 @@ body::-webkit-scrollbar-thumb {
   -webkit-box-shadow: 1px 1px black;
           box-shadow: 1px 1px black;
   font-size: 4.5rem;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 1440px) {
@@ -1482,14 +1477,12 @@ body::-webkit-scrollbar-thumb {
   background-color: dodgerblue;
   font-weight: bold;
   border-radius: 10px;
-  visibility: hidden;
-  opacity: .5;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+  opacity: 0;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .social_card .unhide {
-  visibility: visible;
   opacity: 1;
 }
 /*# sourceMappingURL=index.css.map */
