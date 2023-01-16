@@ -18,7 +18,7 @@
     border-radius: 15px;
     box-shadow: 1px 1px $dark_shadow;
     font-size: 4.5rem;
-    transition: 0.3s ease-in-out;
+    transition: 0.5s ease-in-out;
 
     @media screen and (max-width: $laptop) {
       font-size: 4rem;
@@ -49,13 +49,11 @@
     background-color: dodgerblue;
     font-weight: bold;
     border-radius: 10px;
-    visibility: hidden;
-    opacity: .5;
-    transition: 0.3s ease-in-out;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
   }
 
   .unhide {
-    visibility: visible;
     opacity: 1;
   }
 }

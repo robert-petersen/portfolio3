@@ -29,7 +29,7 @@
       text-align: center;
 
       @media screen and (max-width: $tablet) {
-        width: 70%;
+        width: 50%;
       }
 
       @media screen and (max-width: $phone) {
@@ -72,6 +72,7 @@
 
         @media screen and (max-width: $tablet) {
           font-size: 1.1rem;
+          line-height: 2;
         }
 
         @media screen and (max-width: $phone) {
