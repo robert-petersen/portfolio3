@@ -51,6 +51,19 @@
     border-radius: 10px;
     opacity: 0;
     transition: 0.5s ease-in-out;
+    font-size: 1.2rem;
+
+    @media screen and (max-width: $laptop) {
+      font-size: 1rem;
+    }
+
+    @media screen and (max-width: $tablet) {
+      font-size: .8rem;
+    }
+
+    @media screen and (max-width: $phone) {
+      font-size: .6rem;
+    }
   }
 
   .unhide {

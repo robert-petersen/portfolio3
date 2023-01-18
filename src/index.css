@@ -1263,7 +1263,7 @@ body::-webkit-scrollbar-thumb {
 
 @media screen and (max-width: 962px) {
   #contact .contact_content_container .contact_content {
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -1480,6 +1480,25 @@ body::-webkit-scrollbar-thumb {
   opacity: 0;
   -webkit-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .social_card .tooltip {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 962px) {
+  .social_card .tooltip {
+    font-size: .8rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .social_card .tooltip {
+    font-size: .6rem;
+  }
 }
 
 .social_card .unhide {
