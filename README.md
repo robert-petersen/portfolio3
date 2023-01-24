@@ -94,3 +94,12 @@ In the future I plan on including a "hacking minigame" to be found that will unl
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=footer&theme=cobalt" width="100%"/>
+
+<!-- To do list
+  - Featured Projects
+  - Search projects with tags
+  - Skills tool tip
+  - Contact redesign !important
+  - Create tests
+  - Media Query work never ends
+-->
