@@ -102,4 +102,6 @@ In the future I plan on including a "hacking minigame" to be found that will unl
   - Contact redesign !important
   - Create tests
   - Media Query work never ends
+  - New wireframes for redesign
+  - document old web design for readme
 -->
