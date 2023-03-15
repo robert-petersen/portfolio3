@@ -64,7 +64,7 @@ A portfolio website for a web developer is a great way to show off your skills, 
 - [Beginner Attempt](#beginner-attempt)
 - [Second Portfolio](#second-portfolio)
 - [Current Portfolio](#current-portfolio)
-- [Future Portfolio](#future-portfolio)
+<!-- - [Future Portfolio](#future-portfolio) -->
 
 ### Beginner Attempt
 
@@ -76,7 +76,14 @@ This was my first real attempt at a portfolio website. I created it using React 
 
 ### Current Portfolio
 
-This version is a refactor of the previous version plus a few new features and content. I decided to switch my styles from Styled Components to SASS. I felt Styled Components was less popular and SASS offers alot of great features while sticking closer to traditional CSS practices. This version is also a way to strat reworking the functionality of the website and eventulally the styles and themes as well.
+This version is a refactor of the previous version plus a few new features and content. I decided to switch my styles from Styled Components to SASS. I felt Styled Components was less popular and SASS offers alot of great features while sticking closer to traditional CSS. This version is also a way to strat reworking the functionality of the website and eventulally the styles and themes as well.
+
+<details>
+  <summary>
+    What I am working on
+  </summary>
+    Currently making wireframes for a updated layout that works better and shows off my skills
+</details>
 
 ### Future Portfolio
 <!-- final portfolio here -->
