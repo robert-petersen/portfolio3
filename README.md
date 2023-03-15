@@ -85,7 +85,6 @@ This version is a refactor of the previous version plus a few new features and c
     Currently making wireframes for a updated layout that works better and shows off my skills
 </details>
 
-### Future Portfolio
 <!-- final portfolio here -->
 <!-- New repo or just make changes / at least have a legacy branch to show growth screenshots later on -->
 
