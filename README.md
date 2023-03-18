@@ -95,6 +95,7 @@ This version is a refactor of the previous version plus a few new features and c
 ## Future Improvements
 
 - "Hacked" View - In the future I plan on including a "hacking minigame" to be found that will unlock a new view to display game like projects I create.
+
 - Project tags - Have my projects searchable by tags. Example tags whould be "JavaScript" or "Gatsby"
 
 <!-- --------------------------------------------------------------------------------------------To help see sections----------------- -->
