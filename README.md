@@ -68,7 +68,7 @@ A portfolio website for a web developer is a great way to show off your skills, 
 
 ### Beginner Attempt
 
-My first portfolio was created in my first month at Lambda School, now known as <a href="https://www.bloomtech.com/" target="_blank" rel=”noreferrer”>Bloom Institute of Technology</a>. We were told to give creating one a try one day when we were first learning HTML and CSS. This one predictably turned out pretty bad in a funny way. It reminds me of a horrible MySpace page. I plan to try to find the hideous website and github repo and display it here along with photos.
+My first portfolio was created in my first month at Lambda School, now known as <a href="https://www.bloomtech.com/" target="_blank" rel=”noreferrer”>Bloom Institute of Technology</a>. We were told to give creating one a try one day when we were first learning HTML and CSS. This one predictably turned out pretty bad in a funny way. It reminded me of a horrible MySpace page. I plan to try to find the hideous website and github repo and display it here along with photos.
 
 ### Second Portfolio
 
@@ -76,7 +76,7 @@ This was my first real attempt at a portfolio website. I created it using React 
 
 ### Current Portfolio
 
-This version is a refactor of the previous version plus a few new features and content. I decided to switch my styles from Styled Components to SASS. I felt Styled Components was less popular and SASS offers alot of great features while sticking closer to traditional CSS. This version is also a way to strat reworking the functionality of the website and eventulally the styles and themes as well.
+This version is a refactor of the previous version plus new features and content. I decided to switch my styling library from Styled Components to SASS. This version is also a way to start reworking the functionality of the website and eventulally the styles and themes as well.
 
 <details>
   <summary>
