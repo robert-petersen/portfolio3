@@ -27,19 +27,6 @@ A JavaScript framework and library created by Facebook (Meta) thats used to buil
 ### Sass
 
 A CSS preprocesser that includes great features like variables, nesting, mixins, and inheritance. Great for updating colors and themes quickly with variables, and for creating mixins for commonly used CSS, like centering elements within a container. Sass docs can be found [here](https://sass-lang.com/guide).
-```
-// create a mixin
-@mixin center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-// use your mixin
-.container {
-  @include center;
-}
-```
 
 ### React Router
 
@@ -110,4 +97,20 @@ This version is a refactor of the previous version plus new features and content
   - Media Query work never ends
   - New wireframes for redesign
   - document old web design for readme
+-->
+
+<!--
+```
+// create a mixin
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// use your mixin
+.container {
+  @include center;
+}
+```
 -->
